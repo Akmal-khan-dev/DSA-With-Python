@@ -1,4 +1,4 @@
-# Circular linklist
+#------------- Circular linklist---------->
 class Node:
     def __init__(self, item=None, next=None) -> None:
         self.item = item
@@ -139,6 +139,7 @@ list.insert_after(list.search(34), 4)
 list.insert_after(list.search(2), 14)
 # list.delete_first()
 # list.delete_last()
+list.delete_item(2)
 print("--"*30)
 list.print_list()
 print()
